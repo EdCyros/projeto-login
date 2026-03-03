@@ -18,8 +18,10 @@
     }
 
     div#form{
+        margin-top: 50px;
         float: right;
         width: 70%;
+        text-align: center;
     }
 }
 
@@ -41,7 +43,9 @@
     }
 
     div#form{
+        margin-top: 50px;
         float: right;
         width: 50%;
+        text-align: center;
     }
 }

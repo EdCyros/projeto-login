@@ -8,6 +8,10 @@
 }
 :root{
     --color1: #3C5973;
+    --color2: #BDD9F2;
+    --color3: #272E33;
+    --color4: #C8BCAA;
+
    
 }
 
@@ -30,10 +34,10 @@ box-shadow: 0px 0px 6px 2px #00000054;
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%,-50%);
-
+    
     transition: width 0.4s , height 0.4s; 
     transition-timing-function: ease;   
+    transform: translate(-50%,-50%);
 }
 
 div#image{
@@ -57,5 +61,72 @@ div#form > h1{
 div#form > p{
     text-indent: 10px;
     margin-top: 10px;
+    font-size: 0.8em;
+}
+
+div.info {
+    display: block;
+    background-color: var(--color4);
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+div.info > label{
+    display: none;
+}
+div.info span {
+    padding: 4px;
+    font-size: 2em;
+}
+div.info > input {
+    background-color: var(--color1);
+    width: calc(100% - 60px);
+    height: 40px;
+    margin-left: 15px;
+    border: 2px solid var(--color4);
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    transform: translateY(-12px);
+    
+}
+div.info > input:focus{
+    outline: none;
+}
+form > input[type=submit] {
+    display: block;
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color3);
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form > input[type=submit]:hover{
+    background-color: var(--color1);
+}
+
+form > a{
+    display: block;
+    border: 2px solid var(--color3);
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color3);
+    padding: 5px;
+    margin-top: 5px;
+}
+form > a:hover{
+    background-color: var(--color2);
+    border-color: var(--color2);
+}
+
+form #icon{
     font-size: 0.8em;
 }
