@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        background: #3C5973;
+        background: linear-gradient(180deg, rgba(60, 89, 115, 1) 35%, rgba(242, 222, 189, 1) 100%);
+    }
+
+    main {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    div#image{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#form{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background: #3C5973;
+        background: linear-gradient(180deg, rgba(60, 89, 115, 1) 35%, rgba(242, 222, 189, 1) 100%);
+    }
+
+    main{
+        width: 950px;
+        height: 60vh;
+    }
+
+    div#image{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#form{
+        float: right;
+        width: 50%;
+    }
+}
