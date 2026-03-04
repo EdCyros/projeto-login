@@ -70,6 +70,7 @@ div.info {
     height: 40px;
     margin: 5px 0px;
     border-radius: 5px;
+
 }
 div.info > label{
     display: none;
@@ -92,6 +93,8 @@ div.info > input {
 }
 div.info > input:focus{
     outline: none;
+    background-color: rgb(232, 240, 254);
+    color: #272E33;
 }
 form > input[type=submit] {
     display: block;
